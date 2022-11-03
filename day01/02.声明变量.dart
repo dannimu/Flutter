@@ -12,11 +12,11 @@ main() {
 
 //2.2 final 声明常量     （实际项目中用的比较多）
   final height = 1.5455;
-// height = 2.333;     final 不能改变常量的值
+// height = 2.333;  错误写法   final 不能改变常量的值   常量是不可以修改的变量
 
 //2.3 const 声明常量
   const add = "北京";
-// add = "上海"         const 不能改变常量的值
+// add = "上海"     错误写法    const 不能改变常量的值   常量是不可以修改的变量
 
 //2.4 final 和 const 的区别
 // final 可以通过计算/函数获取一个值（运行期间来确定一个值）
@@ -26,8 +26,7 @@ main() {
 // const date1 = DateTime.now();    此写法为错误，需要赋值一个确定的值
 
   final p1 = new Person("yayayaya"); //创建了一个Person的对象。并且将值赋值给p1
-  final p2 =
-      new Person("yayayaya"); //final p2 = new Person("yayayaya");   new可以省略
+  final p2 = new Person("yayayaya"); //final p2 = new Person("yayayaya");   new可以省略
   //final定义的常量 p1,p2为两个不同的变量
   print(identical(p1, p2)); //可以判断两个对象是否相等，控制台运行结果为 false。
 

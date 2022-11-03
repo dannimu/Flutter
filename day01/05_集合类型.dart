@@ -1,6 +1,9 @@
 main(){
+  //List类型
+
   //1.列表  [];
   var name = ['2443','wrw','2443','gsg'];  // name是数组，是String类型
+  print(name.length);
 
   //1.1.1 数组去重  Set.from(name).toList() 返回值是dynamic类型。不能直接赋值给name
   var a = Set.from(name).toList();
@@ -19,6 +22,13 @@ main(){
   print(b);   //终端打印结果为：List<dynamic>
 
 
+  //1.5 指定数组的类型
+  var qq = <String>['hdhd','AEA','RETE','YTUT'];   //[hdhd, AEA, RETE, YTUT]
+  print(qq);
+
+  // var ww = <int>['guig',55,88,666];     错误。指定int类型。数组里面不能出现字符串类型
+  // print(ww);
+
   //2.集合Set   {};
   var movies = {'春','夏','秋','冬'};
 
@@ -30,4 +40,5 @@ main(){
     'color':'red',
   };
   print(info);
+  print(info['name']);
 }
