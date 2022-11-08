@@ -12,4 +12,24 @@ main(){
   var b = Set.from(name).toList().runtimeType;
   print(b);
 
+
+
+
+  //1.定义isEvenNum函数isEvenNum来判断一个数是否是偶数
+  //2.定义printNum1函数打印1-n以内的所有偶数
+  bool isEvenNum(int n){
+    if(n%2==0){
+      return true;
+    }
+    return false;
+  }
+  //在printNum1（）函数里面调用isEvenNum（）函数
+  printNum1(int n){
+    for(var i = 0; i<=n; i++){
+      if(isEvenNum(i)){
+        print(i);
+      }
+    }
+  }
+  printNum1(12);
 }

@@ -14,6 +14,18 @@ main() {
 
 //  var test4 = test4();
 //   print(test4(20,60));
+
+//把方法当做参数的方法
+fn1(){
+  print('fn1');
+}
+fn2(fn){    //形参
+  fn();
+}
+fn2(fn1);   //实参
+
+
+
 }
 
 void test1(Function foo) {

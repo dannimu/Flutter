@@ -24,6 +24,25 @@ main(){
   }
   print(getList());   //[定义List类型的方法, asa, dss]
 
+//1.定义一个方法，求1到这个数的所有数的和
+int sunNum(int num1,int num2){
+  var result = 0;
+  for(var i = num1;i <= num2;i++){
+    result += i;
+  }
+  return result;
+}
+print(sunNum(0,100));
+
+//2.定义一个方法然后打印用户信息
+printUser(String username,int age){
+  return '姓名：$username， 年龄：$age';
+}
+var a = printUser('yaya',15);
+print(a);
+
+
+
 
 
 
