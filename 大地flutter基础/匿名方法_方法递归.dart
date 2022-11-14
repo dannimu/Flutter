@@ -1,3 +1,4 @@
+import '类_对象.dart';
 main(){
 //  匿名函数
 var printNum=(int n){
@@ -30,8 +31,9 @@ printNum(15);   //138
   print(sum);
 
 
-
-
+  //可以调用   类_对象.dart  文件里面的命名构造函数
+  Person p2 = new Person.setInfo('外部调用命名构造函数',30);
+  print(p2);
 
 
 

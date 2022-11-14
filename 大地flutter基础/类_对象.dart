@@ -1,7 +1,6 @@
 //dart里面构造函数可以写多个
 //class 后面的对象名首字母必须大写
 
-import '../day01/02.声明变量.dart';
 
 class Person {
    late String name;
@@ -50,3 +49,4 @@ main() {
 
 
 }
+
