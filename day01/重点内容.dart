@@ -41,9 +41,22 @@ main(){
 
 
 
+  // var newSn =15616;
+  // var data = [
+    // {
+    //   sn:1,
+    //   name:'你好'，
+    // }，
+    // {
+    // sn:15616,
+    // name:'来了来了，
+    // }，
+  // ]
 
-
-
+  //需要对象里面sn和15616相等
+  // let newItem = data.filter(value => value.sn === newSn)
+  //取数组括号。变成对象形式
+  // item.value = Array.isArray(newItem) && newItem.length > 0 ? newItem[0] : {}
 
 
 
